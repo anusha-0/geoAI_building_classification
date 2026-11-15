@@ -4,6 +4,13 @@ Classifying building types from **Google AlphaEarth satellite embeddings** and *
 
 The notebook takes building footprints from OSM, attaches 64-dimensional AlphaEarth embedding features to each one, and trains a classifier to tell building types apart. The demo separates **office** buildings from **university** buildings in Budapest's 5th District.
 
+![District V buildings: AlphaEarth embeddings and training labels](images/district5_map.png)
+
+<p align="center">
+  <img src="images/alphaearth_budapest_2024.png" width="520" alt="AlphaEarth 2024 RGB composite of Budapest"><br>
+  <em>AlphaEarth 2024 embedding composite of Budapest (bands A00 · A16 · A09)</em>
+</p>
+
 ## Pipeline
 
 ```
